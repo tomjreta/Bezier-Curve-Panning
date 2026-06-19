@@ -71,7 +71,7 @@
                     "comment": "Output method (default = 1 for 4-channel output)",
                     "cool": 1,
                     "id": "obj-16",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -116,7 +116,7 @@
                 "box": {
                     "comment": "Signal",
                     "id": "obj-13",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -127,11 +127,11 @@
                 "box": {
                     "comment": "Pan control 0-1 (float)",
                     "id": "obj-10",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 525.0, 231.0, 30.0, 30.0 ]
                 }
             },
@@ -183,11 +183,11 @@
                 "box": {
                     "comment": "1ch or 4ch Signal",
                     "id": "obj-1",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "multichannelsignal" ],
                     "patching_rect": [ 212.0, 45.0, 30.0, 30.0 ]
                 }
             },
@@ -253,7 +253,7 @@
                     "numinlets": 4,
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 253.0, 517.0, 164.0, 22.0 ],
+                    "patching_rect": [ 253.0, 517.0, 166.0, 22.0 ],
                     "text": "mc.pack~ 4"
                 }
             },
@@ -264,7 +264,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "signal", "signal", "signal", "signal" ],
-                    "patching_rect": [ 253.0, 442.0, 164.0, 22.0 ],
+                    "patching_rect": [ 253.0, 442.0, 166.0, 22.0 ],
                     "text": "mc.unpack~ 4"
                 }
             },
@@ -303,8 +303,50 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-158", 4 ],
+                    "source": [ "obj-157", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-158", 3 ],
+                    "source": [ "obj-157", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-158", 2 ],
+                    "source": [ "obj-157", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-158", 1 ],
                     "source": [ "obj-157", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-163", 3 ],
+                    "source": [ "obj-158", 4 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-163", 2 ],
+                    "source": [ "obj-158", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-163", 1 ],
+                    "source": [ "obj-158", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-163", 0 ],
+                    "source": [ "obj-158", 1 ]
                 }
             },
             {
@@ -388,7 +430,6 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }

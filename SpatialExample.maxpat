@@ -14,6 +14,39 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-7",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 21.0, 746.0, 182.0, 47.0 ],
+                    "text": "If stereo output is needed, be aware that mixdown~ assigns channels 13/24 to L/R by default"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 536.0, 395.0, 70.0, 22.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 206.0, 163.0, 70.0, 22.0 ],
+                    "text": "loadmess 2"
+                }
+            },
+            {
+                "box": {
                     "hidden": 1,
                     "id": "obj-116",
                     "maxclass": "newobj",
@@ -636,7 +669,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 376.0, 141.0, 150.0, 47.0 ],
+                    "patching_rect": [ 376.0, 141.0, 154.0, 47.0 ],
                     "text": "Feed 4 channels in and they will be fixed to this order of inputs: 1-4 (L->R). "
                 }
             },
@@ -734,7 +767,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 214.5, 189.0, 50.0, 22.0 ]
+                    "patching_rect": [ 206.0, 192.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -755,7 +788,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 462.0, 710.0, 140.0, 60.0 ],
+                    "patching_rect": [ 454.0, 711.0, 142.0, 60.0 ],
                     "text": "assumed speaker layout channels/position:\n2/L 3/R\n1/L 4/R"
                 }
             },
@@ -766,7 +799,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 462.0, 639.0, 161.0, 33.0 ],
+                    "patching_rect": [ 446.0, 638.0, 161.0, 33.0 ],
                     "text": "double click to test your individual speaker balances"
                 }
             },
@@ -1183,7 +1216,7 @@
                     "maxclass": "mc.ezdac~",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 193.0, 763.0, 45.0, 45.0 ]
+                    "patching_rect": [ 208.5, 747.0, 45.0, 45.0 ]
                 }
             },
             {
@@ -1255,6 +1288,12 @@
                 "patchline": {
                     "destination": [ "obj-27", 0 ],
                     "source": [ "obj-17", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-45", 0 ],
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -1362,6 +1401,12 @@
                 "patchline": {
                     "destination": [ "obj-42", 0 ],
                     "source": [ "obj-45", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-28", 0 ],
+                    "source": [ "obj-5", 0 ]
                 }
             },
             {
