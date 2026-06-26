@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "dsp.gen",
-        "rect": [ 530.0, 1540.0, 1051.0, 776.0 ],
+        "rect": [ 530.0, 1540.0, 805.0, 776.0 ],
         "boxes": [
             {
                 "box": {
@@ -17,7 +17,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 350.0, 619.0, 35.0, 22.0 ],
+                    "patching_rect": [ 326.0, 530.5, 35.0, 22.0 ],
                     "text": "out 5"
                 }
             },
@@ -27,7 +27,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 312.0, 619.0, 35.0, 22.0 ],
+                    "patching_rect": [ 288.0, 530.5, 35.0, 22.0 ],
                     "text": "out 4"
                 }
             },
@@ -37,7 +37,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 274.0, 619.0, 35.0, 22.0 ],
+                    "patching_rect": [ 250.0, 530.5, 35.0, 22.0 ],
                     "text": "out 3"
                 }
             },
@@ -47,7 +47,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 236.0, 619.0, 35.0, 22.0 ],
+                    "patching_rect": [ 212.0, 530.5, 35.0, 22.0 ],
                     "text": "out 2"
                 }
             },
@@ -57,7 +57,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 387.0, 453.0, 27.0, 20.0 ],
+                    "patching_rect": [ 363.0, 364.5, 27.0, 20.0 ],
                     "text": "P3"
                 }
             },
@@ -67,7 +67,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 354.0, 359.0, 27.0, 20.0 ],
+                    "patching_rect": [ 330.0, 270.5, 27.0, 20.0 ],
                     "text": "P2"
                 }
             },
@@ -77,7 +77,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 321.0, 281.0, 27.0, 20.0 ],
+                    "patching_rect": [ 297.0, 192.5, 27.0, 20.0 ],
                     "text": "P1"
                 }
             },
@@ -87,7 +87,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 203.0, 213.0, 27.0, 20.0 ],
+                    "patching_rect": [ 179.0, 124.5, 27.0, 20.0 ],
                     "text": "P0"
                 }
             },
@@ -98,7 +98,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 258.0, 452.0, 123.0, 22.0 ],
+                    "patching_rect": [ 234.0, 363.5, 123.0, 22.0 ],
                     "text": "expr (pow(in1\\, 3)*in2)"
                 }
             },
@@ -109,7 +109,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 169.0, 358.0, 181.0, 22.0 ],
+                    "patching_rect": [ 145.0, 269.5, 181.0, 22.0 ],
                     "text": "expr (3*(1 - in1)*pow(in1\\, 2)*in2)"
                 }
             },
@@ -120,7 +120,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 60.0, 513.0, 29.5, 22.0 ],
+                    "patching_rect": [ 36.0, 424.5, 29.5, 22.0 ],
                     "text": "+"
                 }
             },
@@ -131,7 +131,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 60.0, 414.0, 29.5, 22.0 ],
+                    "patching_rect": [ 36.0, 325.5, 29.5, 22.0 ],
                     "text": "+"
                 }
             },
@@ -142,7 +142,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 138.0, 280.0, 181.0, 22.0 ],
+                    "patching_rect": [ 114.0, 191.5, 181.0, 22.0 ],
                     "text": "expr (3*pow((1 - in1)\\, 2))*in1*in2"
                 }
             },
@@ -153,7 +153,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 60.0, 321.0, 29.5, 22.0 ],
+                    "patching_rect": [ 36.0, 232.5, 29.5, 22.0 ],
                     "text": "+"
                 }
             },
@@ -164,7 +164,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 362.0, 111.0, 28.0, 22.0 ],
+                    "patching_rect": [ 338.0, 22.5, 28.0, 22.0 ],
                     "text": "in 5"
                 }
             },
@@ -175,7 +175,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 60.0, 212.0, 141.0, 22.0 ],
+                    "patching_rect": [ 36.0, 123.5, 141.0, 22.0 ],
                     "text": "expr pow((1 - in1)\\, 3)*in2"
                 }
             },
@@ -186,7 +186,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 331.0, 111.0, 28.0, 22.0 ],
+                    "patching_rect": [ 307.0, 22.5, 28.0, 22.0 ],
                     "text": "in 4"
                 }
             },
@@ -197,7 +197,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 300.0, 111.0, 28.0, 22.0 ],
+                    "patching_rect": [ 276.0, 22.5, 28.0, 22.0 ],
                     "text": "in 3"
                 }
             },
@@ -208,7 +208,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 269.0, 111.0, 28.0, 22.0 ],
+                    "patching_rect": [ 245.0, 22.5, 28.0, 22.0 ],
                     "text": "in 2"
                 }
             },
@@ -219,7 +219,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 60.0, 111.0, 28.0, 22.0 ],
+                    "patching_rect": [ 36.0, 22.5, 28.0, 22.0 ],
                     "text": "in 1"
                 }
             },
@@ -230,7 +230,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 551.0, 118.0, 200.0, 47.0 ],
+                    "patching_rect": [ 410.0, 204.0, 200.0, 47.0 ],
                     "text": "P = signal 1-4\nT = pan between each two points, 1-2, 2-3, 3-4"
                 }
             },
@@ -240,7 +240,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 116.0, 620.0, 39.0, 20.0 ],
+                    "patching_rect": [ 92.0, 531.5, 39.0, 20.0 ],
                     "text": "C0(T)"
                 }
             },
@@ -252,19 +252,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 549.0, 25.0, 154.0, 72.0 ],
+                    "patching_rect": [ 408.0, 111.0, 154.0, 72.0 ],
                     "text": "C0(T) = ((1-T)^3)P0 + (3(1-T)^2)*T*P1 + (3(1-T)T^2)*P2 + (T^3)*P3"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-5",
-                    "linecount": 4,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 371.0, 31.0, 150.0, 60.0 ],
-                    "text": "Cubic Bezier Curve from here: \nhttps://www.youtube.com/watch?v=pnYccz1Ha34"
                 }
             },
             {
@@ -273,8 +262,33 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 60.0, 619.0, 35.0, 22.0 ],
+                    "patching_rect": [ 36.0, 530.5, 35.0, 22.0 ],
                     "text": "out 1"
+                }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "id": "obj-5",
+                    "maxclass": "comment",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 408.0, 51.0, 170.0, 20.0 ],
+                    "suppressinlet": 1,
+                    "text": "Commissioned by Cycling '74"
+                }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "fontsize": 17.0,
+                    "id": "obj-9",
+                    "maxclass": "comment",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 408.0, 21.0, 238.0, 25.0 ],
+                    "suppressinlet": 1,
+                    "text": "Patch made by Jacob Ottmer"
                 }
             }
         ],
@@ -405,6 +419,7 @@
                     "source": [ "obj-23", 0 ]
                 }
             }
-        ]
+        ],
+        "autosave": 0
     }
 }

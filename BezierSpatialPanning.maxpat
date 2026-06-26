@@ -278,6 +278,31 @@
                     "patching_rect": [ 204.0, 484.0, 215.0, 22.0 ],
                     "text": "gen~ @gen bezierCurveCubic"
                 }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "id": "obj-2",
+                    "maxclass": "comment",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 732.0, 66.0, 170.0, 20.0 ],
+                    "suppressinlet": 1,
+                    "text": "Commissioned by Cycling '74"
+                }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "fontsize": 17.0,
+                    "id": "obj-6",
+                    "maxclass": "comment",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 732.0, 36.0, 238.0, 25.0 ],
+                    "suppressinlet": 1,
+                    "text": "Patch made by Jacob Ottmer"
+                }
             }
         ],
         "lines": [

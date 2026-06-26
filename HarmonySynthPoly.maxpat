@@ -329,6 +329,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 335.0, 905.0, 75.0, 35.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 1"
                 }
             },
@@ -373,7 +377,24 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 335.0, 60.0, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 1"
+                }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "fontsize": 17.0,
+                    "id": "obj-11",
+                    "maxclass": "comment",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 896.0, 21.0, 238.0, 25.0 ],
+                    "suppressinlet": 1,
+                    "text": "Patch made by Jacob Ottmer"
                 }
             }
         ],
