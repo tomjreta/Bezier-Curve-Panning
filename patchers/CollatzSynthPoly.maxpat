@@ -39,6 +39,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 432.0, 251.11112308502197, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 2"
                 }
             },
@@ -269,6 +273,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 933.3333778381348, 694.444477558136, 61.0, 34.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out 1"
                 }
             },
@@ -488,6 +496,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 812.0, 1474.0, 75.0, 35.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 1"
                 }
             },

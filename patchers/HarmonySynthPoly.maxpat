@@ -329,10 +329,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 335.0, 905.0, 75.0, 35.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out~ 1"
                 }
             },
@@ -377,10 +373,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 335.0, 60.0, 28.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "in 1"
                 }
             },
