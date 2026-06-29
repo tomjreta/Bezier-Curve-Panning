@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 818.0, 397.0, 1142.0, 869.0 ],
+        "rect": [ 619.0, 1540.0, 1142.0, 776.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-15",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 520.0, 723.0, 209.0, 47.0 ],
+                    "text": "pnp.reverb~ developed by Austin Franklin (full package \"PnP.Maxtools\" available in Package Manager)"
+                }
+            },
             {
                 "box": {
                     "id": "obj-13",
