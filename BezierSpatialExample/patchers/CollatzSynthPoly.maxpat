@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-4",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 597.0, 1193.5, 210.0, 47.0 ],
+                    "text": "pnp.reverb~ developed by Austin Franklin (full package \"PnP.Maxtools\" available in Package Manager)"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-36",
                     "maxclass": "comment",
                     "numinlets": 1,
